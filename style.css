@@ -1,0 +1,93 @@
+.head_logo_name{
+    font-family: "Rufina", serif;
+    padding-left: 10px;
+}
+.head_logo_name2nd{
+    font-weight: bold;
+    font-family: "Oxygen";
+}
+.head{
+    
+    margin: 0 auto;
+    
+    
+
+}
+.shit{
+    display: none;
+}
+.main{
+    margin:0 0;
+    padding: 0 0;
+    background-color: C4C4C4;
+}
+.head_logo{
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    
+}
+.menu{
+    display:inline-flex;
+    
+}
+.menu_item{
+    padding: 1rem 1rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+main{
+    
+    width:90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.info_text{
+    padding-top: 10px;
+    max-width: 500px;
+    height:auto;
+}
+.info_img{
+    float:left;
+}
+.info{
+    display: inline;
+}
+.info_header{
+    display: inline;
+}
+.cart{
+    display: inline-block;
+}
+
+
+@media screen and (max-width:480px) {
+    .header{
+        padding-left: 10px;
+    }
+    .head_logo_name,.head_logo_name2nd{
+        font-size: 0.75em;
+    }
+    .menu{
+        display: none;
+    }
+    .head_logo_img{
+        transform: scale(0.8);
+    }
+    .shit{
+        display:inline;
+    }
+    .cart{
+        align-self: center;
+        position:unset;
+        transform: scale(0.8)
+    }
+}
