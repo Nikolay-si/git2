@@ -19,7 +19,7 @@
 .main{
     margin:0 0;
     padding: 0 0;
-    background-color: C4C4C4;
+    background-color: rgb(236, 236, 236);
 }
 .head_logo{
     display: inline-flex;
@@ -49,25 +49,95 @@ main{
     width:90%;
     max-width: 1440px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    
 }
-.info_text{
-    padding-top: 10px;
-    max-width: 500px;
-    height:auto;
-}
-.info_img{
-    float:left;
-}
-.info{
-    display: inline;
-}
-.info_header{
-    display: inline;
-}
-.cart{
-    display: inline-block;
+.main_left{
+    display:flex;
+    max-width: 50%;
+    flex-direction: column;
 }
 
+
+.main_left_head{
+    display: flex;
+    align-items: top;
+}
+.main_right{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+     min-width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(90, 81, 81);
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.nahui{
+    display: flex;
+    flex-direction: row;
+}
+.main_right_book_imgpluscost{
+    display:flex;
+    flex-direction: row;
+}
+.main_right_book_cost{
+    align-self: flex-end;
+}
+.main_right_book_cost p {
+    margin: 0 auto;
+    opacity: 0.50;
+}
+.main_right_book {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.main_right_book_exit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.main_right p{
+    margin:0 auto;
+    opacity: 0.5;
+    font-size: 70%;
+}
+.main_right_book_ammount{
+    align-self: flex-end;
+    padding-right:10px;
+}
+
+
+.main_right_book_ammountplusexit{
+    display: flex;
+}
+.main_right_book_cost_name h5{
+    margin:0 auto;
+}
+.main_right_cartprice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.main_right_cartprice div {
+    display: inline;
+}
+.main_right_cartprice p{
+    margin:0 auto;
+}
+#main_right_cartprice_left_total{
+    font-weight: bold;
+    opacity: 1;
+}
 
 @media screen and (max-width:480px) {
     .header{
@@ -89,5 +159,24 @@ main{
         align-self: center;
         position:unset;
         transform: scale(0.8)
+    }
+    .main_left_head_img img{
+        display:none;
+    }
+    .main_left{
+        min-width: 90%;
+    }
+    main{
+        flex-direction: column-reverse;
+        margin:30px auto;
+    }
+    .main_right,img {
+        max-width: 80%;
+        height: auto;
+    }
+    .main_right {
+        padding-left: 10px;
+        padding-right: 10px;
+        min-width:90%
     }
 }
