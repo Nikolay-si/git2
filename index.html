@@ -15,57 +15,87 @@
         rel="stylesheet">
 </head>
 
-<body class="main">
+<body>
     <header class="head">
-        <div class="header">
-            <div class="head_logo">
-                <img class="head_logo_img" src="Group 2.svg">
-                <span class="head_logo_name">Book</span><span class="head_logo_name2nd">Store</span>
-
-            </div>
-            <img class="shit" src="Carrinho.svg">
-
-            <div class="menu">
-                <span class="menu_item">How to make order</span>
-                <span class="menu_item">Books</span>
-                <span class="menu_item">Reviews</span>
-                <span class="menu_item">Videos</span>
-                <span class="menu_item">My cart</span>
-
-            </div>
+        <div class="logo">
+            <img class="logo__pic" src="Group 2.svg">
+            <span class="logo__name">Book</span><span class="logo__name logo__name_bold">Store</span>
+        </div>
+        <img class="cartpic" src="Carrinho.svg">
+        <div class="menu">
+            <span class="menu__item">How to make</span>
+            <span class="menu__item">Books</span>
+            <span class="menu__item">Reviews</span>
+            <span class="menu__item">Videos</span>
+            <span class="menu__item menu__item_higlighted">My cart</span>
         </div>
     </header>
-    <main clas="main">
+    <main clas="content">
+        <div class="content__left">
+            <h1 class="content__left__title">Finalize order</h1>
+            <div class="content__left__head">
 
-        <div class="main_left">
-            <h1>Some portugues</h1>
-            <div class="main_left_head">
-
-                <div class="main_left_head_img">
+                <div class="content__left_head_pic">
                     <img src="Group 12.svg">
-
                 </div>
-                <div class="main_left_head_text">
-                    <p>So you can suck my dick if you don't like my shit
-                        ‘Cause I was high when I wrote this, so suck my dick
-                        ‘Cause I don't give a fuck if you don't like my shit
-                        ‘Cause I was high when I wrote this, so suck my dick</p>
+                <div class="content__left_head_text">
+                    <p>Enter your information below and you will receive an email with the details of your purchase.
+                        Once payment is processed, you will receive your product at your home within 7 working days.</p>
                 </div>
-
-
             </div>
+            <h3 class="info">Information</h3>
+            <form>
+                <input class="infobox" type="text" id="name" name="name" required placeholder="Name">
+                <input class="infobox" type="text" id="email" name="email" required placeholder="Email">
+
+                <h3 class="info">Delivery address</h3>
+                <input class="infobox" type="text" id="zip-code" name="zip-code" required placeholder="Zip code">
+                <input class="infobox" type="text" id="street-avenue" name="street-avenue" required
+                    placeholder="Street/Avenue">
+                <div class="infobox-dived">
+                    <input class="infobox infobox_long" type="text" id="number" name="number" required
+                        placeholder="Number">
+                    <input class="infobox infobox_short" type="text" id="complement" name="complement" required
+                        placeholder="Complement">
+                </div>
+                <div class="infobox-dived">
+                    <input class="infobox infobox_short" type="text" id="city" name="city" required placeholder="City">
+                    <input class="infobox infobox_long" type="text" id="state" name="state" required
+                        placeholder="State">
+
+                </div>
+                <h3 class="info">Payment</h3>
+                <input class="infobox" type="text" id="card-number" name="card-number" required
+                    placeholder="Card number">
+                <input class="infobox" type="text" id="name-of-card-holder" name="name-of-card-holder" required
+                    placeholder="Name of card holder">
+                <div class="infobox-dived">
+                    <input class="infobox infobox_long" type="text" id="validity" name="validity" required
+                        placeholder="Validity">
+                    <input class="infobox infobox_short" type="text" id="CVV" name="CVV" required placeholder="CVV">
+                </div>
+                <input class="infobox" type="text" id="cardholder's-cpf" name="cardholder's-cpf" required
+                    placeholder="Cardholder's CPF">
+                <input class="infobox" type="text" id="number-of-plots" name="number-of-plots" required
+                    placeholder="Number of plots">
+                <div class="button">
+                    <button class="button__item" type="submit">Finalize payment</button>
+                </div>
+            </form>
+
         </div>
-        <div class="main_right">
-            <div class="main_right_head">
+        </div>
+        <div class="content_right">
+            <div class="content_right_head">
                 <h2>Buying this</h2>
             </div>
-            <div class="main_right_book">
-                <div class="main_right_book_imgpluscost">
-                    <div class="main_right_book_img">
+            <div class="content_right_book">
+                <div class="content_right_book_picpluscost">
+                    <div class="content_right_book_pic">
                         <img src="Group 13 (7).svg">
                     </div>
-                    <div class="main_right_book_cost">
-                        <div class="main_right_book_cost_name">
+                    <div class="content_right_book_cost">
+                        <div class="content_right_book_cost_name">
                             <h5>Boook name</h5>
                         </div>
                         <p>R$</p>
@@ -73,53 +103,53 @@
                     </div>
                 </div>
 
-                <div class="main_right_book_ammountplusexit">
-                    <div class="main_right_book_ammount">
+                <div class="content_right_book_ammountplusexit">
+                    <div class="content_right_book_ammount">
                         <p>1</p>
                         <p>qtd</p>
                     </div>
-                    <div class="main_right_book_exit">
-                        <img class="main_right_book_exit_x" src="Close.svg">
-                        <img class="main_right_book_exit_v" src="Chevron.svg">
+                    <div class="content_right_book_exit">
+                        <img class="content_right_book_exit_x" src="Close.svg">
+                        <img class="content_right_book_exit_v" src="Chevron.svg">
 
                     </div>
                 </div>
             </div>
-            <div class="main_right_book">
-                
-                    <div class="main_right_book_imgpluscost">
-                        <div class="main_right_book_img">
-                            <img src="Frame 13.svg">
-                        </div>
-                        <div class="main_right_book_cost">
-                            <div class="main_right_book_cost_name">
-                                <h5>Boook name</h5>
-                            </div>
-                            <p>R$</p>
-                            <p>40,00</p>
-                        </div>
-                    </div>
+            <div class="content_right_book">
 
-                    <div class="main_right_book_ammountplusexit">
-                        <div class="main_right_book_ammount">
-                            <p>1</p>
-                            <p>qtd</p>
-                        </div>
-                        <div class="main_right_book_exit">
-                            <img class="main_right_book_exit_x" src="Close.svg">
-                            <img class="main_right_book_exit_v" src="Chevron.svg">
-
-                        </div>
+                <div class="content_right_book_picpluscost">
+                    <div class="content_right_book_pic">
+                        <img src="Frame 13.svg">
                     </div>
-                
+                    <div class="content_right_book_cost">
+                        <div class="content_right_book_cost_name">
+                            <h5>Boook name</h5>
+                        </div>
+                        <p>R$</p>
+                        <p>40,00</p>
+                    </div>
+                </div>
+
+                <div class="content_right_book_ammountplusexit">
+                    <div class="content_right_book_ammount">
+                        <p>1</p>
+                        <p>qtd</p>
+                    </div>
+                    <div class="content_right_book_exit">
+                        <img class="content_right_book_exit_x" src="Close.svg">
+                        <img class="content_right_book_exit_v" src="Chevron.svg">
+
+                    </div>
+                </div>
+
             </div>
-            <div class="main_right_book">
-                <div class="main_right_book_imgpluscost">
-                    <div class="main_right_book_img">
+            <div class="content_right_book">
+                <div class="content_right_book_picpluscost">
+                    <div class="content_right_book_pic">
                         <img src="Group 13 (8).svg">
                     </div>
-                    <div class="main_right_book_cost">
-                        <div class="main_right_book_cost_name">
+                    <div class="content_right_book_cost">
+                        <div class="content_right_book_cost_name">
                             <h5>Boook name</h5>
                         </div>
                         <p>R$</p>
@@ -127,43 +157,90 @@
                     </div>
                 </div>
 
-                <div class="main_right_book_ammountplusexit">
-                    <div class="main_right_book_ammount">
+                <div class="content_right_book_ammountplusexit">
+                    <div class="content_right_book_ammount">
                         <p>1</p>
                         <p>qtd</p>
                     </div>
-                    <div class="main_right_book_exit">
-                        <img class="main_right_book_exit_x" src="Close.svg">
-                        <img class="main_right_book_exit_v" src="Chevron.svg">
+                    <div class="content_right_book_exit">
+                        <img class="content_right_book_exit_x" src="Close.svg">
+                        <img class="content_right_book_exit_v" src="Chevron.svg">
 
                     </div>
                 </div>
             </div>
-            <div class="main_right_cartprice">
-                <div class="main_right_cartprice_left">
+            <div class="content_right_cartprice">
+                <span class="content_right_cartprice_left">
                     <!-- Да я понимаю, что это полный пиздец, по хорошему тут наверное надо таблицу делать, типо чтобы каждая линия соответсвовала своему значению,
                     но я еблан и сделал вот так -->
                     <p>Price of the</p>
                     <p>products</p>
                     <p>VAT of the</p>
                     <p>products</p>
-                    <p id="main_right_cartprice_left_total">Total price of the</p>
-                    <p id="main_right_cartprice_left_total">products</p>
-                </div>
-                <div class="main_right_cartprice_right">
+                    <p id="content_right_cartprice_left_total">Total price of the</p>
+                    <p id="content_right_cartprice_left_total">products</p>
+                </span>
+                <span class="content_right_cartprice_right">
                     <p>R$</p>
                     <p>120.00</p>
                     <p>R$</p>
                     <p>12.00</p>
-                    <p id="main_right_cartprice_left_total">R$</p>
-                    <p id="main_right_cartprice_left_total">132.00</p>
-                </div>
+                    <p id="content_right_cartprice_left_total">R$</p>
+                    <p id="content_right_cartprice_left_total">132.00</p>
+                </span>
 
             </div>
 
         </div>
 
     </main>
+    <footer class="basement">
+        <div class="basement__conteiner">
+            <div class="logo logo_adjusted">
+                <img class="logo__pic" src="Group 2.svg">
+                <span class="logo__name">Book</span><span class="logo__name logo__name_bold">Store</span>
+            </div>
+            <div class="basement__address">
+                <div class="address basement__city">
+                    <div class="city-socials">
+                        <h3 class="city-socials__item"> Sao </h3>
+                        <h3 class="city-socials__item city-socials__item_gap"> Paulo </h3>
+                    </div>
+                    <p class="address__other">Rua Francisco de Queiroz,</p>
+                    <p class="address__other">1245</p>
+                    <p class="address__other">Cosmópolis</p>
+                    <p class="address__other">Telefone:<tel>(11) 99856-0987</tel>
+                    </p>
+                </div>
+            </div>
+
+            <div class="socials basement__socials">
+                <div class="city-socials">
+                    <h3 class="city-socials__item">Social</h3>
+                    <h3 class="city-socials__item city-socials__item_gap">networks</h3>
+                    <div class="social-links">
+                        <a class="social-links__pic-link" href="https://www.facebook.com/?locale=ru_RU" target="_blank">
+                            <img class="social-links__pic-link__pic" src="facebook.svg" alt="facebook-pic">
+                        </a>
+                        <a class="social-links__pic-link" href="https://x.com/?lang=ru" target="_blank">
+                            <img class="social-links__pic-link__pic" src="twitter.svg"  alt="twitter-pic" >
+                        </a>
+                        <a class="social-links__pic-link" href="https://web.whatsapp.com/" target="_blank">
+                            <img class="social-links__pic-link__pic" src="whatsapp.svg" alt="whatsup-pic" >
+                        </a>
+                        <a class="social-links__pic-link" href="https://www.instagram.com/" target="_blank">
+                            <img class="social-links__pic-link__pic" src="Instagram.svg" alt="instagram-pic">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="basement__pic">
+                <img src="Vector (2).svg">
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
