@@ -24,6 +24,10 @@ body {
     justify-content: space-between;
     
 }
+.main-page{
+    text-decoration: none;
+    color: #000000;
+}
 
 .logo {
     display: flex;
