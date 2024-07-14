@@ -187,7 +187,7 @@ header{
     color: #ffffff
 }
 
-.layright {
+.laycart {
     width: 100%;
     margin: 0 auto;
 }
@@ -198,7 +198,7 @@ header{
     border-bottom: 2px solid #00000011;
 }
 
-.right {
+.cart {
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -242,14 +242,14 @@ header{
     font-weight: bold;
 }
 
-.right__prodprice {
+.cart__prodprice {
     display: flex;
     justify-content: space-between;
     margin: 23px;
     opacity: 0.5;
 }
 
-.right__prodprice_bold {
+.cart__prodprice_bold {
     opacity: 1;
     font-weight: bold;
 }
@@ -356,7 +356,7 @@ header{
         display: inline;
     }
 
-    .layright {
+    .laycart {
         
         width: 50%;
         margin: 0 auto;
