@@ -18,31 +18,33 @@
 <body>
     <header>
         <div class="head">
+            <a class="main-page" href="mainpage.html" target="_blank">
             <div class="logo">
-                <img class="logo__pic" src="Group 2.svg">
+                <img class="logo__pic" src="Pictures\Logopic.svg" alt="image of the logotype">
                 <span class="logo__name">Book</span><span class="logo__name logo__name_bold">Store</span>
             </div>
-            <img class="cartpic" src="Carrinho.svg">
+        </a>
+            <img class="cartpic" src="Pictures\cartpic.svg">
             <div class="menu">
-                <span class="menu__item">How to make</span>
-                <span class="menu__item">Books</span>
-                <span class="menu__item">Reviews</span>
-                <span class="menu__item">Videos</span>
-                <span class="menu__item menu__item_higlighted">My cart</span>
+                <a class="menu__item" href="how-to-order.html" target="_blank">How to order</a>
+                <a class="menu__item" href="books.html" target="_blank">Books</a>
+                <a class="menu__item" href="Reviews.html" target="_blank">Reviews</a>
+                <a class="menu__item" href="videos.html" target="_blank">Videos</a>
+                <a class="menu__item" href="my-cart.html" target="_blank">My cart</a>
             </div>
         </div>
     </header>
     <main>
         <div class="content">
             <div class="layleft">
-                <div class="left">
-                    <h1 class="left__title">Finalize order</h1>
-                    <div class="left__head">
+                <div class="payment-section">
+                    <h1 class="payment-section__title">Finalize order</h1>
+                    <div class="payment-section__head">
                         <div class="cartpic2">
-                            <img class="cartpic2__splat" src="Group 12.svg">
-                            <img class="cartpic2__cart" src="Carrinho (1).svg">
+                            <img class="cartpic2__splat" src="Pictures\splat.svg" alt="image of the green splat">
+                            <img class="cartpic2__cart" src="Pictures\cartpic2.svg" alt="image of the cart">
                         </div>
-                        <div class="left__text">
+                        <div class="payment-section__text">
                             <p>Enter your information below and you will receive an email with the details of your
                                 purchase.
                                 Once payment is processed, you will receive your product at your home within 7 working
@@ -50,7 +52,7 @@
                             </p>
                         </div>
                     </div>
-                    <h3 class="left__info">Information</h3>
+                    <h3 class="payment-section__info">Information</h3>
                     <form>
                         <div class="infobox">
                             <input class="pole" type="text" id="name" name="name" required placeholder="Name">
@@ -58,7 +60,7 @@
                         <div class="infobox">
                             <input class="pole" type="text" id="email" name="email" required placeholder="Email">
                         </div>
-                        <h3 class="left__info">Delivery address</h3>
+                        <h3 class="payment-section__info">Delivery address</h3>
 
 
 
@@ -80,7 +82,7 @@
                             <input class="pole" type="text" id="state" name="state" required placeholder="State">
 
                         </div>
-                        <h3 class="left__info">Payment</h3>
+                        <h3 class="payment-section__info">Payment</h3>
                         <div class="infobox">
                             <input class="pole" type="text" id="card-number" name="card-number" required
                                 placeholder="Card number">
@@ -115,35 +117,35 @@
                         <h2>Buying this</h2>
                     </div>
                     <div class="line">
-                        <img src="Group 13 (7).svg">
+                        <img src="Pictures\Book1.svg" alt="image of the book number 1">
                         <div class="item">
                             <p class="item__name">Book name</p>
                             <p class="item__price">R$ 40,00</p>
                             <p class="item__ammount">1 qtd</p>
-                            <img class="item__picx" src="Close.svg">
-                            <img class="item__picv" src="Chevron.svg">
+                            <img class="item__picx" src="Pictures\Close.svg" >
+                            <img class="item__picv" src="Pictures\Chevron.svg">
                         </div>
 
                     </div>
                     <div class="line">
-                        <img src="Group 13 (7).svg">
+                        <img src="Pictures\Book2.svg" alt="image of the book number 2">
                         <div class="item">
                             <p class="item__name">Book name</p>
                             <p class="item__price">R$ 40,00</p>
                             <p class="item__ammount">1 qtd</p>
-                            <img class="item__picx" src="Close.svg">
-                            <img class="item__picv" src="Chevron.svg">
+                            <img class="item__picx" src="Pictures\Close.svg">
+                            <img class="item__picv" src="Pictures\Chevron.svg">
                         </div>
 
                     </div>
                     <div class="line">
-                        <img src="Group 13 (7).svg">
+                        <img src="Pictures\Book3.svg" alt="image of the book number 3">
                         <div class="item">
                             <p class="item__name">Book name</p>
                             <p class="item__price">R$ 40,00</p>
                             <p class="item__ammount">1 qtd</p>
-                            <img class="item__picx" src="Close.svg">
-                            <img class="item__picv" src="Chevron.svg">
+                            <img class="item__picx" src="Pictures\Close.svg">
+                            <img class="item__picv" src="Pictures\Chevron.svg">
                         </div>
 
                     </div>
@@ -168,7 +170,7 @@
     <footer class="basement">
         <div class="basement__conteiner">
             <div class="logo logo_adjusted">
-                <img class="logo__pic" src="Group 2.svg">
+                <img class="logo__pic" src="Pictures\Logopic.svg" alt="image of the logotype">
                 <span class="logo__name">Book</span><span class="logo__name logo__name_bold">Store</span>
             </div>
             <div class="basement__address">
@@ -189,23 +191,23 @@
                     <h3 class="socials-container">Social networks</h3>
                     <div class="social-links">
                         <a class="social-links__pic-link" href="https://www.facebook.com/?locale=ru_RU" target="_blank">
-                            <img class="social-links__pic-link__pic" src="facebook.svg" alt="facebook-pic">
+                            <img class="social-links__pic-link__pic" src="Pictures\facebook.svg" alt="facebook-pic">
                         </a>
                         <a class="social-links__pic-link" href="https://x.com/?lang=ru" target="_blank">
-                            <img class="social-links__pic-link__pic" src="twitter.svg" alt="twitter-pic">
+                            <img class="social-links__pic-link__pic" src="Pictures\twitter.svg" alt="twitter-pic">
                         </a>
                         <a class="social-links__pic-link" href="https://web.whatsapp.com/" target="_blank">
-                            <img class="social-links__pic-link__pic" src="whatsapp.svg" alt="whatsup-pic">
+                            <img class="social-links__pic-link__pic" src="Pictures\whatsapp.svg" alt="whatsup-pic">
                         </a>
                         <a class="social-links__pic-link" href="https://www.instagram.com/" target="_blank">
-                            <img class="social-links__pic-link__pic" src="Instagram.svg" alt="instagram-pic">
+                            <img class="social-links__pic-link__pic" src="Pictures\Instagram.svg" alt="instagram-pic">
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <img class="basement__pic" src="Vector (1).svg">
-        <img class="basement__pic2" src="Vector (3).svg">
+        <img class="basement__pic" src="Pictures\bottom_picbig.svg">
+        <img class="basement__pic2" src="Pictures/bottom_picsmall.svg">
     </footer>
 
 </body>
