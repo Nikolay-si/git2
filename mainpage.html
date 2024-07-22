@@ -1,11 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="main-style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Rufina:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>Main Page</h1>
+    <header>
+        <div class="head">
+            <a class="main-page" href="mainpage.html" target="_blank">
+                <div class="logo">
+                    <img class="logo__pic" src="Pictures\Logopic.svg" alt="image of the logotype">
+                    <span class="logo__name">Book</span><span class="logo__name logo__name_bold">Store</span>
+                </div>
+            </a>
+            <img class="cartpic" src="Pictures\cartpic.svg">
+            <div class="menu">
+                <a class="menu__item" href="index.html" target="_blank">How to order</a>
+                <a class="menu__item" href="books.html" target="_blank">Books</a>
+                <a class="menu__item" href="Reviews.html" target="_blank">Reviews</a>
+                <a class="menu__item" href="videos.html" target="_blank">Videos</a>
+                <a class="menu__item" href="my-cart.html" target="_blank">My cart</a>
+            </div>
+
+        </div>
+
+    </header>
+    <main>
+        <div class="contentmain">
+            <div class="description-wrap">
+                <div class="description">
+                    <div class="description__info">
+                        <p class="title-text">Expand your universe with the</p>
+                        <h1 class="head-text">Best Books</h1>
+                        <p class="article-text">Here you will find books by various authors, biographies of countless
+                            actors
+                            and great classics of national literature. And you will also have a space to share your
+                            opinion
+                            with other book lovers. Subscribe and stay up to date with all the news.</p>
+
+                    </div>
+                    <form>
+                        <div class="email">
+                            <div class="input-container">
+                                <img class="input-container__image" src="pictures-main\email.svg" alt="image of mail">
+                                <input class="input-container__pole" type="text" placeholder="Enter your email">
+                            </div>
+                            <button class="input-container__button">
+                                To sign</button>
+                        </div>
+                    </form>
+                </div>
+                <img class="description__splat" src="pictures-main\Splat-big.svg" alt="background splat image">
+                <img class="description__book" src="pictures-main\book-big.svg" alt="image of the book">
+                <img class="description__splat-small" src="pictures-main\spalt-small.svg">
+                <img class="description__book-small" src="pictures-main\book-small.svg" alt="">
+            </div>
+            <div class="order-wrap">
+                <div class="order">
+                    <div class="picture">
+                        <img class="picture__image" src="pictures-main\Books.svg">
+                    </div>
+                    <div class="steps">
+                        <div class="steps__menu">
+                            <p class="title-text title-text_center">
+                                How to order</p>
+                            <h2 class="steps__menu-mybooks"> My Books</h2>
+                            <div class="steps__list">
+                                <div class="steps__step">
+                                    <div class="icon">
+                                        <img class="icon__circle" src="pictures-main\circle.svg" alt="green circle">
+                                        <img class="icon__image" src="pictures-main\Mouse.svg" alt="cursor">
+                                    </div>
+                                    <p class="title-text"> Choose your books</p>
+                                </div>
+                                <div class="steps__step">
+                                    <div class="icon">
+                                        <img class="icon__circle" src="pictures-main\circle.svg" alt="green circle">
+                                        <img class="icon__image" src="pictures-main\Cart2.svg" alt="cursor">
+                                    </div>
+                                    <p class="title-text"> Make your wish</p>
+                                </div>
+                                <div class="steps__step">
+                                    <div class="icon">
+                                        <img class="icon__circle" src="pictures-main\circle.svg" alt="green circle">
+                                        <img class="icon__image" src="pictures-main\delivery.svg" alt="cursor">
+                                    </div>
+                                    <p class="title-text">Wait at your house</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="book-container">
+                <div class="book-list">
+                    <p class="title-text">Discover our</p>
+                    <h1 class="head-text">Books</h1>
+                    <div class="book-table">
+                        <div class="book-table__item">
+                            <div class="book-table__image">
+                                <img src="pictures-main\book1.svg" alt="">
+                            </div>
+                            <div class="book-table__info">
+                                <h3 class="book-table__head">Book name </h3>
+                                <p class="book-table__price">R$ 40,00</p>
+                                <a class="book-table__link">Purchase <img class="book-table__arrow"
+                                        src="pictures-main\arrow.svg"></a>
+                            </div>
+                        </div>
+                        <div class="book-table__item">
+                            <div class="book-table__image">
+                                <img src="pictures-main\Book2.svg" alt="">
+                            </div>
+                            <div class="book-table__info">
+                                <h3 class="book-table__head">Book name </h3>
+                                <p class="book-table__price">R$ 40,00</p>
+                                <a class="book-table__link">Purchase <img class="book-table__arrow"
+                                        src="pictures-main\arrow.svg"></a>
+                            </div>
+                        </div>
+                        <div class="book-table__item">
+                            <div class="book-table__image">
+                                <img src="pictures-main\book3.svg" alt="">
+                            </div>
+                            <div class="book-table__info">
+                                <h3 class="book-table__head">Book name </h3>
+                                <p class="book-table__price">R$ 40,00</p>
+                                <a class="book-table__link">Purchase <img class="book-table__arrow"
+                                        src="pictures-main\arrow.svg"></a>
+                            </div>
+                        </div>
+                        <div class="book-table__item">
+                            <div class="book-table__image">
+                                <img src="pictures-main\book4.svg" alt="">
+                            </div>
+                            <div class="book-table__info">
+                                <h3 class="book-table__head">Book name </h3>
+                                <p class="book-table__price">R$ 40,00</p>
+                                <a class="book-table__link">Purchase <img class="book-table__arrow"
+                                        src="pictures-main\arrow.svg"></a>
+                            </div>
+                        </div>
+                        <div class="book-table__item">
+                            <div class="book-table__image">
+                                <img src="pictures-main\book5.svg" alt="">
+                            </div>
+                            <div class="book-table__info">
+                                <h3 class="book-table__head">Book name </h3>
+                                <p class="book-table__price">R$ 40,00</p>
+                                <a class="book-table__link">Purchase <img class="book-table__arrow"
+                                        src="pictures-main\arrow.svg"></a>
+                            </div>
+                        </div>
+                        <div class="book-table__item">
+                            <div class="book-table__image">
+                                <img src="pictures-main\book6.svg" alt="">
+                            </div>
+                            <div class="book-table__info">
+                                <h3 class="book-table__head">Book name </h3>
+                                <p class="book-table__price">R$ 40,00</p>
+                                <a class="book-table__link">Purchase <img class="book-table__arrow"
+                                        src="pictures-main\arrow.svg"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="quot-container">
+                <div class="quot">
+                    <div class="qout__image">
+                        <img src="pictures-main\girl.svg" alt="">
+                    </div>
+                    <div class="quot__article">
+                        <h3 class="quot__head">See what our readers have to share</h3>
+                        <div class="quot__text">
+                            <div class="quot__quotes">
+                                <img src="pictures-main\quots.svg" alt="">
+                            </div>
+                            <div class="quot__review">
+                                <p class="quot__comment">I started reading “Sublime” randomly and without many
+                                    expectations,
+                                    although the synopsis pleased me. I even confess that I found the amount of text a
+                                    bit
+                                    strange, as I had only seen the cover online and imagined it to be more of an
+                                    illustration
+                                    book. But I must say that I was surprised from the first few pages by a really good
+                                    text, I
+                                    loved the language. And how good it is to be surprised like that. In those moments
+                                    when you
+                                    are at work, you pick up the book that is on the table, wave to the colleague next
+                                    to you
+                                    and say: -Man, this book is good. Well, I liked it that much. And I hope to check
+                                    out your
+                                    other books.</p>
+
+                            </div>
+                        </div>
+                        <div class="quot__bottom">
+                            <div class="quot__name">
+                                <h3>Camila Barbosa</h3>
+                                <p class="article-text">Subscriber since 2020</p>
+                            </div>
+                            <div class="quot__nav">
+                                <img src="pictures-main\nav-arrow.svg">
+                                <img class="quot__arrow" src="pictures-main\nav-arrow2.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="splat2" src="pictures-main\big-splat.svg" alt="">
+            </div>
+            <div class="video-container">
+                <div class="video-reviews">
+                    <p class="title-text">See reviews in our</p>
+                    <h1 class="head-text">Videos</h1>
+                    <div class="videobox">
+                        <div class="videobox__container">
+                            <video class="videobox__video" width="278" height="278" controls>
+                                <source src="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            </video>
+                            <h3>Resenha do Murilo</h3>
+                            <p class="article-text">Published in January 2018</p>
+                        </div>
+                        <div class="videobox__container">
+                            <video class="videobox__video" width="278" height="278" controls>
+                                <source src="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            </video>
+                            <h3>Resenha da Marcela</h3>
+                            <p class="article-text">Published in January 2018</p>
+                        </div>
+                        <div class="videobox__container">
+                            <video class="videobox__video" width="278" height="278" controls>
+                                <source src="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            </video>
+                            <h3>Resenha da Nelma</h3>
+                            <p class="article-text">Published in January 2018</p>
+                        </div>
+                        <div class="videobox__container">
+                            <video class="videobox__video" width="278" height="278" controls>
+                                <source src="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            </video>
+                            <h3>Resenha da Fernanda</h3>
+                            <p class="article-text">Published in January 2018</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="basement">
+        <div class="basement__conteiner">
+            <div class="logo logo_adjusted">
+                <img class="logo__pic" src="Pictures\Logopic.svg" alt="image of the logotype">
+                <span class="logo__name">Book</span><span class="logo__name logo__name_bold">Store</span>
+            </div>
+            <div class="basement__address">
+                <div class="address basement__city">
+                    <div class="city-socials">
+                        <h3 class="city-socials__item"> Sao Paulo </h3>
+                    </div>
+                    <p class="address__other">Rua Francisco de Queiroz,</p>
+                    <p class="address__other">1245</p>
+                    <p class="address__other">Cosmópolis</p>
+                    <p class="address__other">Telefone:<tel>(11) 99856-0987</tel>
+                    </p>
+                </div>
+            </div>
+
+            <div class="socials">
+                <div class="socials-container">
+                    <h3 class="socials-container">Social networks</h3>
+                    <div class="social-links">
+                        <a class="social-links__pic-link" href="https://www.facebook.com/?locale=ru_RU" target="_blank">
+                            <img class="social-links__pic-link__pic" src="Pictures\facebook.svg" alt="facebook-pic">
+                        </a>
+                        <a class="social-links__pic-link" href="https://x.com/?lang=ru" target="_blank">
+                            <img class="social-links__pic-link__pic" src="Pictures\twitter.svg" alt="twitter-pic">
+                        </a>
+                        <a class="social-links__pic-link" href="https://web.whatsapp.com/" target="_blank">
+                            <img class="social-links__pic-link__pic" src="Pictures\whatsapp.svg" alt="whatsup-pic">
+                        </a>
+                        <a class="social-links__pic-link" href="https://www.instagram.com/" target="_blank">
+                            <img class="social-links__pic-link__pic" src="Pictures\Instagram.svg" alt="instagram-pic">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="basement__pic" src="Pictures\bottom_picbig.svg">
+        <img class="basement__pic2" src="Pictures/bottom_picsmall.svg">
+    </footer>
 </body>
+
 </html>
